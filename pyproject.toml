@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nvvp-vergoeding-scraper"
+version = "0.1.0"
+description = "Scrape vergoedingen van NvvP website"
+authors = ["Dennis Bakhuis <pypi@bakhuis.nu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4"
+beautifulsoup4 = "^4"
+selenium = "^4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
